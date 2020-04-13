@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Ex6.css">
+
+</head>
+
+<body>
+    <h1>Calculer Salaire Net</h1>
+    <form>
+        <p>Salaire brut:</p>
+
+        <input type="number" name="sBrut" id="sBrut">
+        <div>
+            <p>Supplément:<input type="checkbox" name="sup" id="sup"></p>
+            <p>Allocation:<input type="checkbox" name="alloc" id="alloc"></p>
+        </div>
+        <div>
+            <p>Homme:<input type="checkbox" name="Homme" id="man"></p>
+            <p>Femme:<input type="checkbox" name="Femme" id="woman"></p>
+        </div>
+        <p>Nombre d'enfants à charge:</p>
+        <input type="number" name="nEnfants" id="nEnfants">
+        <p>Salaire Net: </p>
+        <span id="sNet"></span>
+
+        <input type="button" value="valider" id="bouton">
+    </form>
+    <script src="Ex6.js"></script>
+</body>
+
+</html>
